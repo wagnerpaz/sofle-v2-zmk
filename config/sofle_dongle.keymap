@@ -1,0 +1,6 @@
+/*
+ * The dongle (central) reuses the exact same keymap as the keyboard.
+ * Edit your layout in sofle.keymap — this file just pulls it in, so the two
+ * never drift apart.
+ */
+#include "sofle.keymap"
