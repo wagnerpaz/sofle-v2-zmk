@@ -9,7 +9,7 @@ half, snappier/steadier connection, and no "wake-up" lag.
 
 Drop the folders in, preserving paths (relative to repo root):
 
-    config/sofle_dongle.keymap                                 (new)
+    config/boards/shields/sofle_dongle/sofle_dongle.keymap     (new)
     config/boards/shields/sofle_dongle/Kconfig.shield          (new)
     config/boards/shields/sofle_dongle/Kconfig.defconfig       (new)
     config/boards/shields/sofle_dongle/sofle_dongle.overlay    (new)

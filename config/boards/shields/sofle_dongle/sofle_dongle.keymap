@@ -1,0 +1,11 @@
+/*
+ * The dongle (central) reuses the exact same keymap as the keyboard.
+ * Edit your layout in config/sofle.keymap — this file just pulls it in, so
+ * the two never drift apart.
+ *
+ * This lives in the shield folder (not config/) so the keymap-drawer workflow,
+ * which globs config/*.keymap, doesn't try to render a diagram for a keyboard
+ * with no physical layout. The relative path resolves against this file's own
+ * directory: config/boards/shields/sofle_dongle/ -> up 3 -> config/.
+ */
+#include "../../../sofle.keymap"
